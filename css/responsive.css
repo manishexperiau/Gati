@@ -1,0 +1,418 @@
+/* TABLET MEDIA QUERY */
+
+@media only screen and (max-width:1200px){
+    
+    .hamburger{
+        display: block;
+    }
+    .toggle-menu{
+        display: block;
+    }
+    /* .header{
+        padding: 10px 20px;
+    } */
+    .menu{
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 100px;
+        right: -300px;
+        width: 300px;
+        height: 100%;
+        padding-top: 30px;
+        background-color: white;
+    }
+    .menu li{
+        width: 100%;
+
+    }
+    .menu li a
+        {
+            padding: 30px;
+            font-size: 15px;
+            box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+        }
+    
+    .menu li a:hover{
+        padding: 30px;
+        font-size: 20px;
+        color: rgb(62, 187, 209);
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+    }
+
+    .slides .carousel-inner .item {
+        /* margin-top: 160px; */
+        height: 75vh;
+    }
+    
+    .banner {
+        -webkit-background-size: cover;
+        background-size: cover;
+        /* background-position: center; */
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 75vh;
+    }
+    .carousel-caption {
+        /* padding-bottom: 125px; */
+        text-align: justify;
+        font-family: 'Poppins', sans-serif;
+        transform: translate(0vh, -25vh);
+    }
+    .carousel-caption h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .carousel-caption h3{
+        font-size: 15px;
+    }
+    .carousel-caption h2 .span1{
+        color: white;
+    }
+    .carousel-caption h2 .span2 {
+        color: rgb(62, 187, 209);
+    }
+    .carousel-caption .fadeInLeft{
+        color: white;
+    }
+    .carousel-caption .buttons{
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: left;
+    
+    }
+    .carousel-caption .Cont-Us{
+        margin: 0 20px 0 0;
+    }
+    .carousel-caption .Req-Us{
+        margin: 0 0 0 20px;
+    }
+    .carousel-caption a {
+        background: rgb(62, 187, 209);
+        padding: 8px 15px;
+        font-size: 15px;
+        display: block;
+        margin: 8px 20px;
+        color: white;
+        text-transform: uppercase;
+        /* border-radius: 25px; */
+    
+    }
+    .carousel-caption .Cont-Us{
+    
+        font-size: 12px;
+    }
+    .carousel-caption .Req-Us{
+        margin-left: -12px;
+        font-size: 12px;
+    }
+    .carousel-control.right {
+        background-image: none;
+        width: 0px;
+        height: 0px;
+        margin: 450px 50px 0 0;
+    
+    
+    }
+    .carousel-control.left {
+        background-image: none;
+        width: 0px;
+        height: 0px;
+        margin: 450px 0 0 50px;
+    
+    }
+    
+        .carousel-indicators .active {
+        background-color: rgb(62, 187, 209);
+        border-color: rgb(62, 187, 209);
+    
+    }
+}
+@media only screen and (max-width:1200px){
+    .box .content1 h2{
+        font-size: 23px;
+    }
+    .box .content1 p{
+        font-size: 15px;
+        line-height: 30px;
+        margin: 0;
+        padding: 10px 0 0;
+        text-align: justify;
+    }
+    .imgBx img{
+        width: 300px;
+        height: 400px;
+    }
+    .star-icons i span{
+        padding: 5px;
+        font-size: 15px;
+        color: rgb(53, 53, 53);
+    }
+}
+
+@media only screen and (max-width:1200px){
+
+    .cards{
+        height: auto;
+        display: grid;
+        grid-gap: 80px 0px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        justify-items: center;
+        align-content: center;
+        padding: 50px;
+    }
+    
+}
+
+@media only screen and (max-width:945px){
+    .contact-details{
+        display: none;
+    }
+    .nav{
+        top: 0;
+    }
+    .slides .carousel-inner .item {
+        margin-top: 100px;
+        
+    }
+}
+
+@media only screen and (max-width:690px){
+    .contact-details{
+        display: none;
+    }
+    .nav{
+        top: 0;
+    }
+    .slides .carousel-inner .item {
+        /* margin-top: 160px; */
+        height: 60vh;
+    }
+    
+    .banner {
+        -webkit-background-size: cover;
+        background-size: cover;
+        /* background-position: center; */
+        background-position-x: right;
+        background-repeat: no-repeat;
+        height: 60vh;
+    }
+    .carousel-caption {
+        /* padding-bottom: 125px; */
+        text-align: justify;
+        font-family: 'Poppins', sans-serif;
+        transform: translate(0vh, -15vh);
+    }
+    .carousel-caption h2 {
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+    }
+    .carousel-caption h3{
+        font-size: 12px;
+        text-align: center;
+    }
+    .carousel-caption h2 .span1{
+        color: white;
+    }
+    .carousel-caption h2 .span2 {
+        color: rgb(62, 187, 209);
+    }
+    .carousel-caption .fadeInLeft{
+        color: white;
+    }
+    .carousel-caption .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    
+    }
+    .carousel-caption a {
+        background: rgb(62, 187, 209);
+        padding: 5px 8px;
+        font-size: 15px;
+        display: block;
+        margin-top: 5px;
+        color: white;
+        text-transform: uppercase;
+        /* border-radius: 25px; */
+    
+    }
+    .carousel-caption .Cont-Us{
+        margin-left: 20px;
+        font-size: 10px;
+    }
+    .carousel-caption .Req-Us{
+        margin-left: 0px;
+        font-size: 10px;
+    }
+    .carousel-control.right {
+        background-image: none;
+        width: 0px;
+        height: 0px;
+        margin: 400px 50px 0 0;
+    
+    
+    }
+    .carousel-control.left {
+        background-image: none;
+        width: 0px;
+        height: 0px;
+        margin: 400px 0 0 50px;
+    
+    }
+    
+    .carousel-indicators .active {
+        background-color: rgb(62, 187, 209);
+        border-color: rgb(62, 187, 209);
+    
+    }
+}
+
+@media only screen and (max-width:690px){
+    .contact-details{
+        display: none;
+    }
+    
+    .cards{
+        height: auto;
+        display: grid;
+        grid-gap: 80px 0px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        justify-items: center;
+        align-content: center;
+        padding: 50px;
+    }
+    .card{
+        width: 300px;
+    }
+    .cards-images img{
+        width: 100%;
+        height: 180px;
+    }
+    
+}
+@media only screen and (max-width:690px){
+    .request_form img{
+        display: none;
+    }
+    .form-img{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+    form{
+       align-items: flex-start;
+       justify-items: center;
+   }
+   
+}
+@media only screen and (max-width:690px){
+    .box{ 
+        
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        grid-gap: 20px;
+    }
+    .box .content1 h2{
+        width: 100%;
+        font-size: 20px;
+    }
+    .box .content1 p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:690px){
+    .brands{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10px;
+        grid-row-gap: 20px;
+        align-items: center;
+        justify-items: center;
+    }
+}
+@media only screen and (max-width:690px){
+    footer{
+        height: 1000px;
+        margin: 0 auto;
+        background-color: rgb(62, 187, 209);
+        display: flex;
+        flex-direction: column;
+
+        /* text-align: center; */
+    }
+    
+    .footer{
+
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        justify-items: center;
+    }
+    .footer .f_company{
+        margin: 50px 89px 0 0;
+        font-size: 15px;
+    }
+    .f_company ul li a{
+        
+        font-size: 12px;
+    }
+    .footer .f_services{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .f_services ul li a{
+        
+        font-size: 12px;
+    }
+    .f_gallery{
+        margin: 0 0 0 130px;
+    }
+    .footer .f_gallery .f_gallery_imgs{
+        padding: 2px 0px;
+    }
+    .f_gp{
+        font-size: 15px;
+    }
+    .f_phone i span{
+        font-size: 12px;
+
+    }
+    .f_mail i{
+        font-size: 15px;
+    }
+    .f_mail i a{
+        font-size: 12px;
+    }
+    .f_gallery{
+        font-size: 15px;
+    }
+    .pay_online{
+        font-size: 12px;
+    }
+    hr{
+        display: inline;
+        width: 500px;
+        margin: 0 auto;
+    }
+    .copyright{
+        color: white;
+        font-size: 15px;
+        margin: 400px 0 0 0;
+    }
+}
+
+
